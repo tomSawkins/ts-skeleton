@@ -1,0 +1,32 @@
+{
+  "name": "ts-skeleton",
+  "version": "1.0.0",
+  "description": "skeleton typescript project",
+  "scripts": {
+    "lint": "tslint -p ./tsconfig.json -c ./tslint.json",
+    "build-verify": "tsc -p ./tsconfig.json -noEmit",
+    "check": "npm run lint && npm run build-verify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomSawkins/ts-skeleton.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Thomas Sawkins",
+  "license": "ISC",
+  "homepage": "https://github.com/tomSawkins/ts-skeleton#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "husky": "3.0.2",
+    "typescript": "3.5.3",
+    "tslint": "5.18.0",
+    "tslint-react": "4.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run check"
+    }
+  }
+}

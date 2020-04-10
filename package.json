@@ -19,7 +19,7 @@
   "homepage": "https://github.com/tomSawkins/ts-skeleton#readme",
   "dependencies": {},
   "devDependencies": {
-    "husky": "4.2.4",
+    "husky": "4.2.5",
     "typescript": "3.8.3",
     "tslint": "5.20.1",
     "tslint-react": "4.2.0"
